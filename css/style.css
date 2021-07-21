@@ -1,0 +1,17 @@
+body {
+    border: 2px solid gold;
+    width: 90vw;
+    height: 90vh;
+    margin: 0 auto;
+}
+/* .container-1 {
+    width: 800px;
+    height: 600px;
+    background: url(../img/main\ bg@1X.png) center  repeat;
+    margin: 200px auto;
+} */
+.main {
+    width: 687px;
+    height: 392px;
+    color:#111A28 ;
+}
