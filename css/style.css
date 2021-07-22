@@ -3,15 +3,18 @@ body {
     width: 90vw;
     height: 90vh;
     margin: 0 auto;
+    position: relative;
 }
-/* .container-1 {
+.container-1 {
     width: 800px;
     height: 600px;
     background: url(../img/main\ bg@1X.png) center  repeat;
     margin: 200px auto;
-} */
+}
 .main {
     width: 687px;
     height: 392px;
-    color:#111A28 ;
+    color:#111A28;
+    position: absolute;
+    z-index: -2;
 }
