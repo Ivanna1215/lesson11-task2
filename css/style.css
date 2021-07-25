@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Museo Sans Rounded";
+    src: url(../fonts/MuseoSansRounded-100.woff2);
+}
+
 body {
     /* border: 2px solid gold; */
     width: 90vw;
@@ -108,7 +113,7 @@ letter-spacing: 0px;
 line-height: 26px;
 color: #e1e1e1;
 font-family: "Museo Sans Rounded";
-width: 155px;
+width: 170px;
 height: 44px;
 /* border: 2px solid blueviolet; */
 margin-top: 5px;
@@ -135,12 +140,15 @@ margin-bottom: 0px;
 /* border: 2px solid red; */
 background-color:#111A28;
 /* color: rgba(255, 255, 255,0.2); */
-color: white;
+color: rgb(255, 255, 255, 0.2);
+/* width: 100px; */
+padding: 5px;
 }
 .Qty {
     background-color:#111A28;
-/* color: rgba(255, 255, 255,0.2); */
-color: white;
+color: rgba(255, 255, 255,0.2);
+/* color: white; */
+padding: 5px;
 }
 .value {
     border: 2px solid green;
@@ -149,5 +157,5 @@ button {
    background-color: #202835;
    width: 185px;
    height: 40px;
-   color:white;
+   color: rgba(255, 255, 255,0.2);
 }
